@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>DOPE13STORE</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="page-dashboard">
+        <div class="d-flex" id="wrapper" data-aos="fade-right">
+            <!-- sidebar -->
+            <div class="border-right" id="sidebar-wrapper">
+                <div class="sidebar-heading text-center">
+                    <img src="/images/logo-dashboard.svg" class="my-4">
+                </div>
+                <div class="list-group list-group-flush">
+                    <a href="/dashboard.html" class="list-group-item">Dashboard</a>
+                    <a href="/dashboard-produk.html" class="list-group-item active">Produk</a>
+                    <a href="/dashboard-transaksi.html" class="list-group-item">Transaksi</a>
+                    <a href="/dashboard-pengaturan.html" class="list-group-item">Pengaturan</a>
+                    <a href="/dashboard-akun.html" class="list-group-item">Akun</a>
+                    <a href="/index.html" class="list-group-item">Keluar</a>
+                </div>
+            </div>
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top" data-aos="fade-down">
+                    <div class="container-fluid">
+                        <button class="btn btn-secondary d-md-none mr-auto mr-2" id="menu-toggle">&laquo; Menu</button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSuppoertContent">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSuppoertContent">
+                            <!-- Desktop -->
+                            <ul class="navbar-nav d-none d-lg-flex ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown">
+                                        <img src="/images/user_desktop.png" alt="user"
+                                            class="rounded-circle mr-2 profile-picture">Hi, Eko
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                                        <a href="/pengaturan.html" class="dropdown-item">Pengaturan</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="/" class="dropdown-item">Keluar</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link d-inline-block mt-2">
+                                        <img src="/images/cart-isi.svg" alt="cart-isi">
+                                        <div class="card-badge">8</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Mobile -->
+                            <ul class="navbar-nav d-block d-lg-none">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Hi, Eko
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link d-inline-block">
+                                        Keranjang
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Section Content -->
+                <div class="section-content section-dashboard-home" data-aos="fade-up">
+                    <div class="container-fluid">
+                        <div class="dashboard-heading">
+                            <h2 class="dashboard-title">Converse Kuning</h2>
+                            <p class="dashboard-subtitle">
+                                Halaman Detail Produk
+                            </p>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="row">
+                                <div class="col-12">
+                                    <form action="">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="namaToko">Nama Produk</label>
+                                                            <input type="text" class="form-control" id="namaToko"
+                                                                name="namaToko" value="Converse Kuning" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="harga">Harga</label>
+                                                            <input type="number" class="form-control" id="harga"
+                                                                name="harga" value="Rp. 200.000" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="kategori">Kategori</label>
+                                                            <select name="kategori" id="kategori" class="form-control">
+                                                                <option value="" disabled>Pilih Kategori</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label>Deskripsi Produk</label>
+                                                            <textarea name="deskripsi-produk"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col text-right">
+                                                        <button type="submit" class="btn btn-success px-5 btn-block">
+                                                            Edit Produk
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="gallery-container">
+                                                        <img src="images/dashboard-detail-produk1.png" class="w-100">
+                                                        <img src="images/ikon-hapus.svg" class="hapus-gallery"></img>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="gallery-container">
+                                                        <img src="images/dashboard-detail-produk2.png" class="w-100">
+                                                        <img src="images/ikon-hapus.svg" class="hapus-gallery"></img>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="gallery-container">
+                                                        <img src="images/dashboard-detail-produk3.png" class="w-100">
+                                                        <img src="images/ikon-hapus.svg" class="hapus-gallery"></img>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <input type="file" id="file" style="display: none;" multiple>
+                                                    <button class="btn btn-secondary btn-block mt-3" onclick="thisFileUpload()">Tambah gambar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        })
+    </script>
+    <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+    <script>
+        function thisFileUpload() {
+            document.getElementById("file").click();
+        }
+    </script>
+    <script>
+        CKEDITOR.replace('deskripsi-produk');
+    </script>
+</body>
+
+</html>

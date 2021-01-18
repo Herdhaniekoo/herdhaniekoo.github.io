@@ -1,0 +1,17 @@
+.page-sukses {
+    .row-sukses {
+        min-height: 75vh;
+    }
+
+    .section-sukses {
+        font-size: 28px;
+        font-weight: 200;
+        color: #0c0d36;
+        margin-top: 0;
+    }
+
+    .btn-kembali {
+        @include button-variant(#c8c8c8, transparent);
+        color: #ffffff;
+    }
+}
